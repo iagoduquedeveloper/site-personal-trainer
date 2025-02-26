@@ -8,6 +8,7 @@
   outline: none;
   scroll-behavior: smooth;
   font-family: -apple-system, sans-serif;
+  max-width: 100%;
 }
 
 :root {
@@ -19,7 +20,11 @@
 
 html {
   font-size: 62.5%;
+}
+
+html, body {
   overflow-x: hidden;
+  width: 100%;
 }
 
 body {
@@ -29,7 +34,7 @@ body {
 
 section {
   min-height: 100vh;
-  padding: 10rem 8% 2rem;
+    padding: 10rem 5% 2rem; /* Reduzi de 8% para 5% */
 }
 
 /* Header Section Code */
@@ -43,10 +48,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 9%;
+  padding: 2rem 5%; /* Reduzindo padding para evitar estouro */
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(10px);
   transition: all 0.5s ease;
+  box-sizing: border-box; /* Garante que padding não afete a largura */
+
 }
 
 .logo {
@@ -460,12 +467,14 @@ span {
       position: absolute;
       top: 100%;
       right: -100%;
-      width: 255px;
+      width: 100vw; /* Garante que não ultrapasse a tela */
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       background: var(--bg-color);
       transition: all 0.5s ease;
+      overflow-x: hidden;
+
   }
   .navbar a {
       display: block;
