@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #1a0e12;
+            color: white;
+        }
+        .contato {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('background.png') no-repeat center center/cover;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+        .imagem-personal img {
+            height: 500px;
+        }
+        .info-contato {
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        h1 {
+            font-size: 60px;
+            font-weight: bold;
+        }
+        .linha {
+            width: 4px;
+            height: 60px;
+            background-color: white;
+            position: absolute;
+            left: -20px;
+            top: 80px;
+        }
+        .telefone, .email {
+            font-size: 20px;
+            margin-left: 20px;
+        }
+        .siga-nos {
+            font-size: 22px;
+            margin-top: 20px;
+        }
+        .siga-nos span {
+            color: red;
+            font-weight: bold;
+        }
+        .redes-sociais {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        .redes-sociais img {
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <section class="contato">
+        <div class="container">
+            <div class="imagem-personal">
+                <img src="/assets/imagens/CONTATO.png" alt="Personal Trainer">
+            </div>
+            <div class="info-contato">
+                <h1>CONTATO</h1>
+                <div class="linha"></div>
+                <p class="telefone">+55 (22) 99293-8335</p>
+                <p class="email">darlansantana.consultoria@gmail.com</p>
+                <p class="siga-nos">Visite e siga o <br><span>Fique Absurdo</span> <br>nas redes sociais</p>
+                <div class="redes-sociais">
+                    <img src="facebook.png" alt="Facebook">
+                    <img src="linkedin.png" alt="LinkedIn">
+                    <img src="youtube.png" alt="YouTube">
+                    <img src="instagram.png" alt="Instagram">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
