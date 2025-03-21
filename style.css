@@ -292,7 +292,6 @@ header {
 
 .about-content {
   flex: 2;
-  padding: 20px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -349,9 +348,7 @@ header {
   .about {
     gap: 0;
   }
-  .about img {
-      height: 80vh;
-    }
+
 
     .about-content h1 {
       font-size: 10rem;
@@ -975,7 +972,7 @@ footer h3 {
   }
 
   .about img {
-    height: 50vh;
+    height: 65vh;
   }
 
   .about-name {
