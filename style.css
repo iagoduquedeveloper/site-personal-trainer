@@ -1242,6 +1242,44 @@ footer h3 {
   flex-direction: column;
   text-align: center;
 }
+}
 
+@media (max-width: 425px) {
+  .logo-img {
+    width: 10rem;
+}
+
+#menu-icon {
+  font-size: 2.6rem;
+}
+
+.nav-btn {
+  font-size: 1rem;
+  padding: 0.8rem 1.0rem;
+}
+
+.whatsapp-icon-header {
+  width: 30px;
+  height: 30px;
+}
+
+.home-content h1 {
+  font-size: 1.5rem;
+}
+
+.home-img img {
+  width: 50vw;
+  height: 40vh;
+}
+
+.home-content p {
+  font-size: 1rem;
+}
+
+.btn {
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  letter-spacing: 0.7rem;
+}
 
 }
