@@ -1282,4 +1282,160 @@ footer h3 {
   letter-spacing: 0.7rem;
 }
 
+/* about */
+
+.about img {
+  height: 40vh;
+}
+
+.about-name {
+  margin-top: 3rem;
+}
+.about-content span {
+  font-size: 1rem;
+}
+
+.about-content h1 {
+  font-size: 5rem;
+}
+
+.about-content p {
+  font-size: 1rem;
+}
+
+/* alunos */
+
+.title-one h1 {
+  font-size: 5rem;
+}
+
+.title-one h3 {
+  letter-spacing: 1rem;
+  font-size: 1rem;
+}
+
+.container-title-services p {
+  font-size: 0.8rem;
+}
+
+.services-content {
+
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.btn-results {
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* prices */
+
+.container-plans-titles {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-plans-titles h1 {
+  font-size: 4rem;
+}
+
+.container-plans-titles p {
+  font-size: 1rem;
+}
+
+.container-cards {
+  display: flex;
+  overflow-x: scroll;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  padding: 0;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer e Edge antigo */
+}
+.container-cards::-webkit-scrollbar {
+  display: none; /* Chrome, Safari e Edge moderno */
+}
+
+.card {
+  min-height: 25rem;
+  flex-shrink: 0;
+  width: 50vw;
+ 
+}
+
+.btn-prices {
+  padding: 1rem 4.8rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.plans-content {
+  display: flex;
+  overflow-x: scroll;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer e Edge antigo */
+  gap: 1.3rem
+
+}
+
+/* feedbacks */
+
+
+.container-title-review h1 {
+  font-size: 3rem;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  scrollbar-width: none; /* Firefox */
+  animation: none;
+}
+
+.review-card {
+  min-width: 80vw;
+}
+.review-card h3 {
+  font-size: 1.5rem;
+}
+
+.stars {
+  font-size: 1.5rem;
+}
+
+.review-card p {
+  font-size: 1rem;
+}
+
+/* contato */
+
+.container {
+  flex-direction: column;
+  text-align: center;
+}
+
+.container-sobre-down {
+  display: flex;
+  margin-top: 65px;
+  gap: 0;
+}
+
+/* footer */
+
+footer img {
+  width: 10rem;
+}
+
+footer h3 {
+  font-size: 1rem;
+}
+
+footer {
+  padding: 20px;
+}
+
 }
