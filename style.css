@@ -181,21 +181,17 @@ header {
   box-shadow: 0 0 1.6rem var(--text-color);
 }
 
-@media (max-width: 1668px) {
-
+@media (max-width: 1692px) {
   .home-content h1 {
-     font-size: 6rem;
+    font-size: 6rem;
   }
 
   .home-content p {
     font-size: 2rem;
   }
-
-
 }
 
-@media (min-width: 1200px) and (max-width: 1436px) {
- 
+@media (min-width: 1200px) and (max-width: 1460px) {
   .navbar li a {
     font-size: 1.6rem;
   }
@@ -204,40 +200,38 @@ header {
   }
   .nav-btn {
     font-size: 1.3rem;
-    
   }
   .whatsapp-icon-header {
     width: 55px;
     height: 55px;
   }
- 
+
   .home-content h1 {
     font-size: 5.6rem;
- }
+  }
 
- .home-content p {
-   font-size: 2rem;
- }
+  .home-content p {
+    font-size: 2rem;
+  }
 
- .home-img {
-  width: 60vw;
-  height: 100h;
- }
+  .home-img {
+    width: 60vw;
+    height: 100h;
+  }
 
- .btn {
-  font-size: 2.5rem;
- }
+  .btn {
+    font-size: 2.5rem;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
   .home-content h1 {
     font-size: 4.5rem;
- }
+  }
 
- .home-content p {
-   font-size: 1.8rem;
- }
+  .home-content p {
+    font-size: 1.8rem;
+  }
   .navbar li a {
     font-size: 1.4rem;
   }
@@ -247,35 +241,32 @@ header {
   .nav-btn {
     font-size: 1rem;
     padding: 5px 15px;
-    
   }
   .whatsapp-icon-header {
     width: 45px;
     height: 45px;
   }
 
- .home-img {
-  width: 55vw;
-  height: 100h;
- }
+  .home-img {
+    width: 55vw;
+    height: 100h;
+  }
 
- .btn {
-  font-size: 2rem;
- }
+  .btn {
+    font-size: 2rem;
+  }
 }
-
-
 
 /* About Section */
 
 .about {
   display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    padding: 40px 40px 0;
-    gap: 50px;
-    background-color: #123f61;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  padding: 40px 40px 0;
+  gap: 50px;
+  background-color: #123f61;
 }
 
 .about-img {
@@ -312,6 +303,7 @@ header {
   font-size: 13rem;
   font-weight: bold;
   margin-left: 2rem;
+  margin-top: -3rem;
 }
 
 .about-content span {
@@ -322,25 +314,25 @@ header {
 }
 
 .about-content p {
-    font-size: 2rem;
-    line-height: 1.6;
-    margin-top: 10px;
-    max-width: 100%;
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-top: 10px;
+  max-width: 100%;
 }
 
 @media (max-width: 900px) {
   .about {
-      flex-direction: column;
-      text-align: center;
-      justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
   }
 
   .about img {
-      max-width: 300px;
+    max-width: 300px;
   }
 
   .about-content h1 {
-      font-size: 2.5rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -349,19 +341,16 @@ header {
     gap: 0;
   }
 
-
-    .about-content h1 {
-      font-size: 10rem;
-    }
-    .about-content span {
-      font-size: 2rem;
-
-    }
-    .about-content p {
-      font-size: 2rem;
-    }
+  .about-content h1 {
+    font-size: 10rem;
+  }
+  .about-content span {
+    font-size: 2rem;
+  }
+  .about-content p {
+    font-size: 2rem;
+  }
 }
-
 
 /* resultados alunos */
 
@@ -378,14 +367,15 @@ header {
 }
 
 .container-title-services h1 {
-    font-size: 15rem;
-    text-align: center;
+  font-size: 15rem;
+  text-align: center;
 }
 
 .container-title-services h3 {
   font-size: 3rem;
   color: #fc4c47;
   letter-spacing: 3.5rem;
+  text-align: center;
 }
 
 .container-title-services p {
@@ -394,10 +384,9 @@ header {
   font-weight: 700;
 }
 
-
 .services-content {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   gap: 2.3rem;
   margin-top: 4.2rem;
@@ -453,21 +442,18 @@ header {
   margin-bottom: 40px;
 }
 
-
 @media (max-width: 1020px) {
-
   .title-one h1 {
     font-size: 12rem;
   }
 
   .title-one h3 {
-    font-size: 2rem
+    font-size: 2rem;
   }
 
   .container-title-services p {
     font-size: 2rem;
   }
-
 }
 
 /* Pricing Section Code */
@@ -552,11 +538,21 @@ header {
 .plan-box {
   background-color: #143447;
   color: white;
+  min-height: 50rem;
   width: 40rem;
   padding: 4rem;
   border-radius: 10px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
   text-align: left;
+}
+
+.h2-price {
+  font-size: 3rem;
+}
+
+.text-video {
+  font-size: 2rem;
+  text-align: center;
 }
 
 .plan-box h2 {
@@ -589,7 +585,7 @@ header {
 }
 
 .per-month {
-  font-size:  2rem;
+  font-size: 2rem;
   color: #a0aec0;
 }
 
@@ -599,7 +595,6 @@ header {
   margin-top: 2px;
   text-align: center;
   margin-left: 5rem;
-
 }
 
 .details {
@@ -629,7 +624,6 @@ header {
 }
 
 @media (max-width: 1564px) {
-
   .card p {
     font-size: 1.8rem;
   }
@@ -650,9 +644,7 @@ header {
   }
 
   .card p {
-   
     font-size: 1.5rem;
-    
   }
 }
 
@@ -691,8 +683,8 @@ header {
   flex-direction: column;
 }
 
-.container-title-review h1{
-      font-size: 10rem;
+.container-title-review h1 {
+  font-size: 10rem;
 }
 
 .carousel-container {
@@ -746,10 +738,10 @@ header {
 
 @keyframes scroll {
   from {
-      transform: translateX(0);
+    transform: translateX(0);
   }
   to {
-      transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 }
 
@@ -757,11 +749,10 @@ header {
   animation-play-state: paused; /* Pausa a animação quando o mouse está sobre */
 }
 
-
 /* ******************CONTATO********************* */
 
 .container {
-  width: 100%; 
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -775,9 +766,8 @@ header {
   flex-direction: column;
 }
 
-.container-sobre-titles{
+.container-sobre-titles {
   margin-bottom: 2.5rem;
-
 }
 
 .container-sobre-titles h1 {
@@ -788,11 +778,10 @@ header {
   font-size: 3rem;
 }
 
-.container-sobre-down{
+.container-sobre-down {
   display: flex;
   gap: 3rem;
   margin-top: 100px;
-
 }
 
 .container-title-down {
@@ -803,14 +792,13 @@ header {
   color: #ff3530;
 }
 
-
 .social-icons {
   display: flex;
   gap: 15px;
   margin-top: 15px;
 }
 
-.social-icons img{
+.social-icons img {
   width: 12rem;
   height: auto;
   cursor: pointer;
@@ -827,11 +815,9 @@ header {
   .social-icons {
     gap: 10px;
   }
-
 }
 
 @media (max-width: 1520px) {
-
   .container-sobre-titles h1 {
     font-size: 10rem;
   }
@@ -839,7 +825,6 @@ header {
   .container-sobre-titles p {
     font-size: 2.5rem;
   }
-
 
   .container-title-down {
     font-size: 2.5rem;
@@ -851,7 +836,6 @@ header {
   .social-icons {
     gap: 10px;
   }
-
 }
 
 @media (max-width: 1400px) {
@@ -865,15 +849,13 @@ header {
     width: 40vw;
   }
 
-  .container-title-down{
+  .container-title-down {
     font-size: 2rem;
   }
 
   .social-icons img {
     width: 6rem;
   }
-
-
 }
 
 /* ******************Footer Section********************* */
@@ -893,7 +875,6 @@ footer h3 {
   font-size: 2rem;
 }
 
-
 /* Scrollbar */
 
 ::-webkit-scrollbar {
@@ -906,7 +887,6 @@ footer h3 {
 }
 
 /* BreakPoint */
-
 
 @media (max-width: 991px) {
   #menu-icon {
@@ -961,12 +941,12 @@ footer h3 {
   .home-img img {
     width: 80vw;
     height: 80vh;
-    }
+  }
 
   .home-content h1 {
     font-size: 3rem;
   }
- 
+
   .home-content p {
     font-size: 1.6rem;
   }
@@ -1005,15 +985,13 @@ footer h3 {
   }
 
   .container-cards {
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: 5rem;
-    }
-
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+  }
 
   .card {
     width: 30%;
-
   }
 
   .card img {
@@ -1031,7 +1009,7 @@ footer h3 {
 
   .container-title-review h1 {
     font-size: 6rem;
-}
+  }
 
   .review-card img {
     width: 80px;
@@ -1076,10 +1054,194 @@ footer h3 {
 
   .personal-img {
     width: 50vw;
-}
+  }
 
   footer img {
-  width: 25rem;
+    width: 25rem;
+  }
 }
 
+@media (max-width: 768px) {
+  .logo-img {
+    width: 20rem;
   }
+
+  .nav-btn {
+    font-size: 1.1rem;
+    padding: 0.8rem 3.5rem;
+  }
+
+  .home-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-content p {
+    font-size: 1.3rem;
+  }
+
+  .btn {
+    padding: 1.5rem 1rem;
+    font-size: 1.7rem;
+    letter-spacing: 0.7rem;
+    margin-top: 10px;
+  }
+
+  .home-img img {
+    width: 60vw;
+    height: 55vh;
+  }
+
+  /* sobre o home */
+
+  .about {
+    padding-bottom: 2rem;
+}
+  .about img {
+    height: 55vh;
+}
+
+.about-name {
+  margin-top: 3rem;
+}
+.about-content p {
+  font-size: 1.3rem;
+}
+
+  /* alunos resultados */
+  .services {
+    padding-top: 1rem;
+}
+  .title-one h1 {
+    font-size: 7rem;
+}
+
+.title-one h3 {
+  letter-spacing: 1.5rem;
+  font-size: 2rem;
+}
+
+.container-title-services p {
+  font-size: 1.7rem;
+}
+
+.btn-results {
+  padding: 2rem 3.8rem;
+  font-size: 1.5rem;
+}
+
+/* prices */
+
+.plans {
+  padding-top: 1rem;
+}
+
+.container-plans-titles h1 {
+  font-size: 5rem;
+}
+
+.container-plans-titles p {
+  font-size: 1.3rem;
+}
+
+.card {
+  height: 30rem;
+}
+.card p {
+  font-size: 1.2rem;
+}
+
+.btn-prices {
+  padding: 2rem 4.8rem;
+  font-size: 1.5rem;
+}
+
+.plans-content {
+  gap: 0.8rem;
+}
+
+.plan-box {
+  min-width: 20rem;
+  min-height: 30rem;
+  padding: 3rem;
+}
+
+.plan-box h2 {
+  font-size: 3rem;
+}
+
+.installments {
+  font-size: 1rem;
+}
+
+.price {
+  font-size: 1.5rem;
+}
+.per-month {
+  font-size: 1rem;
+}
+
+.total-price {
+  font-size: 1rem;
+}
+
+.h2-price {
+  font-size: 2rem;
+}
+
+
+.text-video {
+
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+
+.details p {
+  font-size: 1rem;
+  margin: 0.7rem 0;
+}
+
+.cta {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+/* feeedbacks */
+
+.container-review {
+ padding-top: 1rem;
+ height: auto;
+ padding-bottom: 3rem;
+ 
+}
+.container-title-review h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.carousel {
+  margin-top: 3rem;
+}
+
+/* contato */
+
+.container-sobre-titles p {
+  font-size: 1.6rem;
+}
+.container-title-down {
+  font-size: 1.5rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.container-sobre-down {
+  flex-direction: column;
+  text-align: center;
+}
+
+
+}
