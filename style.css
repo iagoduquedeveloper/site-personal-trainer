@@ -1272,11 +1272,11 @@ footer h3 {
 }
 
 .home {
-  background-image: url("./assets/imagens/HOME.png");
+  background-image: url("./assets/ELEMENTOS/HOME.png");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: -20% center;
   background-size: cover;
-  min-height: 40vh;
+  min-height: 50vh;
   text-align: left;
 }
 
@@ -1309,10 +1309,10 @@ footer h3 {
 
 .about {
   background-image: url(/assets/ELEMENTOS/QUEM\ SOU.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  max-height: 42vh;
+  min-height: 54vh;
   min-width: 100%;
 }
 
@@ -1329,7 +1329,7 @@ footer h3 {
 }
 
 .about-content p {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .mobile-text {
@@ -1352,11 +1352,11 @@ footer h3 {
 
 .mobile-text p:nth-of-type(2) {
   /* Altera o segundo <p> */
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .mobile-text h4 {
-  font-size: 2.4rem;
+  font-size: 3rem;
 } 
 
 .texto-about-mobile {
