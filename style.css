@@ -1,3 +1,25 @@
+@font-face {
+  font-family: 'Kia Signature';
+  src: url('/Fonte/KiaSignatureOTFRegular.otf') format('opentype');
+  font-weight: 400; /* Normal */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Kia Signature';
+  src: url('/Fonte/KiaSignatureOTFBold.otf') format('opentype');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Kia Signature';
+  src: url('/Fonte/KiaSignatureOTFRegular.otf') format('opentype');
+  font-weight: 100; /* Bold */
+  font-style: normal;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -36,7 +58,6 @@ body {
 section {
   padding: 10rem 5% 0rem; /* Reduzi de 8% para 5% */
 }
-
 .invisible {
   display: none;
 }
@@ -151,6 +172,7 @@ header {
   font-weight: 700;
   line-height: 1.4;
   letter-spacing: 1px;
+  font-family: 'Kia Signature';
 }
 
 .home-img img {
@@ -211,7 +233,7 @@ header {
   }
 
   .home-content h1 {
-    font-size: 5.6rem;
+    font-size: 5rem;
   }
 
   .home-content p {
@@ -230,7 +252,7 @@ header {
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .home-content h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 
   .home-content p {
@@ -322,6 +344,7 @@ header {
   line-height: 1.6;
   margin-top: 10px;
   max-width: 100%;
+  text-align: justify;
 }
 
 @media (max-width: 900px) {
@@ -479,6 +502,7 @@ header {
 
 .container-plans-titles p {
   font-size: 2.5rem;
+  text-align: justify;
 }
 
 .container-cards {
@@ -736,8 +760,8 @@ header {
 
 .review-card p {
   font-size: 2rem;
-  line-height: 1.5;
   margin: 2rem;
+  text-align: justify;
 }
 
 @keyframes scroll {
@@ -790,6 +814,8 @@ header {
 
 .container-title-down {
   font-size: 3rem;
+  font-family: 'Kia Signature';
+  
 }
 
 .container-title-down span {
@@ -1067,188 +1093,396 @@ footer h3 {
 
 @media (max-width: 768px) {
   .logo-img {
-    width: 20rem;
-  }
-
-  .nav-btn {
-    font-size: 1.1rem;
-    padding: 0.8rem 3.5rem;
-  }
-
-  .home-content h1 {
-    font-size: 2.5rem;
-  }
-
-  .home-content p {
-    font-size: 1.3rem;
-  }
-
-  .btn {
-    padding: 1.5rem 1rem;
-    font-size: 1.7rem;
-    letter-spacing: 0.7rem;
-    margin-top: 10px;
-  }
-
-  .home-img img {
-    width: 60vw;
-    height: 55vh;
-  }
-
-  /* sobre o home */
-
-  .about {
-    padding-bottom: 2rem;
-}
-  .about img {
-    height: 55vh;
+    width: 15rem;
 }
 
-.about-name {
-  margin-top: 3rem;
-}
-.about-content p {
-  font-size: 1.3rem;
+#menu-icon {
+  font-size: 2.6rem;
 }
 
-  /* alunos resultados */
-  .services {
-    padding-top: 1rem;
-}
-  .title-one h1 {
-    font-size: 7rem;
+.nav-btn {
+  font-size: 1rem;
+  padding: 1rem 3rem;
 }
 
-.title-one h3 {
-  letter-spacing: 1.5rem;
+.whatsapp-icon-header {
+  width: 30px;
+  height: 30px;
+}
+
+.home-img {
+  display: none;
+}
+
+.home {
+  background-image: url("./assets/ELEMENTOS/HOME.png");
+  background-repeat: no-repeat;
+  background-position: -20% center;
+  background-size: cover;
+  min-height: 90vh;
+  text-align: left;
+}
+
+.home-content {
+  margin-top: 8rem;
+  width: 100%;
+}
+
+.home-content h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.textop {
+  width: 65%;
+}
+
+.home-content p {
   font-size: 2rem;
 }
 
-.container-title-services p {
-  font-size: 1.7rem;
+.btn {
+  padding: 1.3rem;
+  font-size: 2rem;
+  width: 40%;
+  letter-spacing: 0.3px;
 }
 
+/* about */
+
+.about {
+  background-image: url(/assets/ELEMENTOS/QUEM\ SOU.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.about img {
+  display: none;
+}
+
+.about-name {
+  display: none;
+}
+
+.about-content {
+  align-items: unset;
+}
+
+.about-content p {
+  font-size: 2rem;
+}
+
+.mobile-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-family: 'Kia Signature';
+}
+
+.mobile-text p {
+  margin-bottom: 1rem;
+  line-height: 0;
+  color: #469ed9;
+  font-weight: bold;
+} 
+
+.mobile-text p:nth-of-type(1) {
+  /* Altera o primeiro <p> */
+  font-size: 2rem;
+}
+
+.mobile-text p:nth-of-type(2) {
+  /* Altera o segundo <p> */
+  font-size:2.4rem;
+}
+
+.mobile-text h4 {
+  font-size: 5rem;
+} 
+
+.texto-about-mobile {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  flex-wrap: wrap;
+}
+
+
+/* alunos */
+.container-title-services {
+  display: flex;
+  flex-direction: column;
+}
+  
+
+.title-one h1 {
+  font-size: 7rem;
+}
+
+.title-one h3 {
+  letter-spacing: 1rem;
+  font-size: 2rem;
+}
+
+.p-texto-some {
+  display: none;
+}
+
+.services-content {
+  display: none;
+}
+
+.swiper {
+  width: 80%;
+  padding: 25px 0;
+  display: block
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.slide-image {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.quote {
+  font-size: 16px;
+  margin: 20px 0;
+  display: block;
+  text-align: center;
+}
+
+.feedback-button {
+  background-color: #B91C1C;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  letter-spacing: 0.3rem;
+  margin-bottom: 3rem;
+  font-family: 'Kia Signature';
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet {
+  background: white;
+  opacity: 0.3;
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet-active {
+  background: red;
+  opacity: 1;
+}
+.none{
+  display: none;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #d53030;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  right: 10px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 16px;
+  color: white;
+}
+
+
 .btn-results {
-  padding: 2rem 3.8rem;
-  font-size: 1.5rem;
+  display: none;
 }
 
 /* prices */
 
-.plans {
-  padding-top: 1rem;
+.container-plans-titles {
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container-plans-titles h1 {
-  font-size: 5rem;
+  font-size: 4rem;
+  text-align: center;
 }
-
 .container-plans-titles p {
   font-size: 1.3rem;
 }
 
-.card {
-  height: 30rem;
+.p-prices-375px {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: justify;
+  max-width: 90%;
 }
-.card p {
-  font-size: 1.2rem;
+
+.container-cards {
+  display: none;
+
 }
 
 .btn-prices {
-  padding: 2rem 4.8rem;
-  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  font-size: 1.3rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 
 .plans-content {
-  gap: 0.8rem;
+  display: none;
+  overflow-x: scroll;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer e Edge antigo */
+  gap: 1.3rem
+
 }
 
-.plan-box {
-  min-width: 20rem;
-  min-height: 30rem;
-  padding: 3rem;
+.btn-aluno {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 2px solid #fff;
+    border-radius: 8rem;
+    box-shadow: none;
+    font-size: 1.3rem;
+    color: var(--text-color);
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    transition: 0.5s ease;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.plan-box h2 {
+/* feedbacks */
+
+.container-review {
+  height: 48vh;
+}
+.container-title-review h1 {
   font-size: 3rem;
 }
 
-.installments {
-  font-size: 1rem;
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  scrollbar-width: none; /* Firefox */
+  animation: none;
 }
 
-.price {
+.review-card {
+  min-width: 40vw;
+}
+.review-card h3 {
   font-size: 1.5rem;
 }
-.per-month {
+
+.stars {
+  font-size: 1.5rem;
+}
+
+.review-card p {
   font-size: 1rem;
-}
-
-.total-price {
-  font-size: 1rem;
-}
-
-.h2-price {
-  font-size: 2rem;
-}
-
-
-.text-video {
-
-    font-size: 1.3rem;
-    letter-spacing: 0.1rem;
-    margin-bottom: 1rem;
-}
-
-
-.details p {
-  font-size: 1rem;
-  margin: 0.7rem 0;
-}
-
-.cta {
-  margin-top: 15px;
-  font-size: 1rem;
-}
-
-/* feeedbacks */
-
-.container-review {
- padding-top: 1rem;
- height: auto;
- padding-bottom: 3rem;
- 
-}
-.container-title-review h1 {
-  font-size: 4rem;
-  text-align: center;
-}
-
-.carousel {
-  margin-top: 3rem;
 }
 
 /* contato */
 
-.container-sobre-titles p {
-  font-size: 1.6rem;
+.container {
+  background-image: url(./assets/ELEMENTOS/CONTATO.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  flex-direction: column;
+  justify-content: initial;
+  align-items: center;
+  text-align: left;
+  min-height: 100vh;
+  background-color: #2b1720;
+  border-radius: 0;
+}
+
+.contato-mobile {
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+}
+.container-img-contact{
+  display: none;
+}
+
+.container-sobre-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+
+.container-sobre-titles h1 {
+  font-size: 9rem;
 }
 .container-title-down {
-  font-size: 1.5rem;
+  font-size: 3rem;
+  text-align: left;
+}
+
+
+.container-sobre-down {
+  display: flex;
+  gap: 0;
+  margin-top: 18rem;
+  flex-direction: column;
 }
 
 .social-icons {
-  display: flex;
-  justify-content: center;
+  margin-top: 0;
+  gap: 0.1rem;
+  justify-content: left;
+  margin-left: -1rem;
 }
 
-.container-sobre-down {
-  flex-direction: column;
-  text-align: center;
+.social-icons img {
+  width: 8rem;
+}
+
+/* footer */
+
+footer img {
+  width: 15rem;
+}
+
+footer h3 {
+  font-size: 2rem;
+}
+
+footer {
+  padding: 20px;
 }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 425px) 
+
+{
+
+  .invisiblemb {
+    display: none;
+  }
   .logo-img {
     width: 10rem;
 }
@@ -1336,6 +1570,7 @@ footer h3 {
   display: flex;
   flex-direction: column;
   align-items: start;
+  font-family: 'Kia Signature';
 }
 
 .mobile-text p {
@@ -1427,6 +1662,7 @@ footer h3 {
   display: block;
   letter-spacing: 0.3rem;
   margin-bottom: 3rem;
+  font-family: 'Kia Signature';
 }
 
 .swiper-pagination-bullets .swiper-pagination-bullet {
@@ -1585,7 +1821,10 @@ footer h3 {
   align-items: center;
   margin-bottom: 7rem;
 }
+.container-sobre-titles h1 {
+  font-size: 5rem;
 
+}
 .container-title-down {
   font-size: 1.5rem;
   text-align: left;
