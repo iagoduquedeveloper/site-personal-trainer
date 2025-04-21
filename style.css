@@ -1307,24 +1307,65 @@ footer h3 {
 
 /* about */
 
+.about {
+  background-image: url(/assets/ELEMENTOS/QUEM\ SOU.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 42vh;
+  min-width: 100%;
+}
+
 .about img {
-  height: 40vh;
+  display: none;
 }
 
 .about-name {
-  margin-top: 3rem;
-}
-.about-content span {
-  font-size: 1rem;
+  display: none;
 }
 
-.about-content h1 {
-  font-size: 5rem;
+.about-content {
+  align-items: unset;
 }
 
 .about-content p {
+  font-size: 0.8rem;
+}
+
+.mobile-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.mobile-text p {
+  margin-bottom: 0.5rem;
+  line-height: 0;
+  color: #469ed9;
+  font-weight: bold;
+} 
+
+.mobile-text p:nth-of-type(1) {
+  /* Altera o primeiro <p> */
   font-size: 1rem;
 }
+
+.mobile-text p:nth-of-type(2) {
+  /* Altera o segundo <p> */
+  font-size: 1.3rem;
+}
+
+.mobile-text h4 {
+  font-size: 2.4rem;
+} 
+
+.texto-about-mobile {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  flex-wrap: wrap;
+}
+
 
 /* alunos */
 .container-title-services {
@@ -1397,7 +1438,9 @@ footer h3 {
   background: red;
   opacity: 1;
 }
-
+.none{
+  display: none;
+}
 .swiper-button-next,
 .swiper-button-prev {
   background-color: #d53030;
@@ -1423,16 +1466,22 @@ footer h3 {
 .container-plans-titles {
   flex-direction: column;
   justify-content: center;
-  text-align: center;
 }
 
 .container-plans-titles h1 {
   font-size: 4rem;
+  text-align: center;
 }
 .container-plans-titles p {
-  font-size: 1.2rem;
-  text-align: left;
-  width: 100%;
+  font-size: 1.3rem;
+}
+
+.p-prices-375px {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: justify;
+  max-width: 90%;
 }
 
 .container-cards {
@@ -1508,14 +1557,55 @@ footer h3 {
 /* contato */
 
 .container {
+  background-image: url(./assets/ELEMENTOS/CONTATO.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
   flex-direction: column;
-  text-align: center;
+  justify-content: initial;
+  align-items: center;
+  text-align: left;
+  min-height: 40vh;
+  background-color: #2b1720;
+  border-radius: 0;
+}
+
+.contato-mobile {
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+}
+.container-img-contact{
+  display: none;
+}
+
+.container-sobre-titles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.container-title-down {
+  font-size: 1.5rem;
+  text-align: left;
 }
 
 .container-sobre-down {
   display: flex;
-  margin-top: 65px;
   gap: 0;
+  margin-top: 0;
+}
+
+.social-icons {
+  margin-top: 0;
+  gap: 0.1rem;
+  justify-content: left;
+  margin-left: -1rem;
+}
+
+.social-icons img {
+  width: 4rem;
 }
 
 /* footer */
