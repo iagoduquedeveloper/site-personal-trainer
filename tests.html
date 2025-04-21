@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resultados dos Alunos</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <style>
+    body {
+      background-color: #000;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .section-title {
+      font-size: 48px;
+      font-weight: bold;
+      margin-top: 40px;
+    }
+
+    .section-subtitle {
+      color: #FF3E3E;
+      letter-spacing: 5px;
+      font-size: 20px;
+      margin-top: -10px;
+    }
+
+    .swiper {
+      width: 100%;
+      padding: 40px 0;
+    }
+
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .comparison {
+      background: #111;
+      border-radius: 10px;
+      overflow: hidden;
+      max-width: 300px;
+    }
+
+    .comparison img {
+      width: 100%;
+      display: block;
+    }
+
+    .labels {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .labels div {
+      padding: 5px 10px;
+      font-size: 12px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .antes {
+      background-color: #333;
+    }
+
+    .depois {
+      background-color: #d53030;
+    }
+
+    .quote {
+      font-size: 16px;
+      margin: 20px 0;
+    }
+
+    .feedback-button {
+      background-color: #B91C1C;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 25px;
+      color: white;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .swiper-pagination-bullets .swiper-pagination-bullet {
+      background: white;
+      opacity: 0.3;
+    }
+
+    .swiper-pagination-bullets .swiper-pagination-bullet-active {
+      background: red;
+      opacity: 1;
+    }
+
+    .swiper-button-next {
+      background-color: #d53030;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      right: 10px;
+    }
+
+    .swiper-button-next::after {
+      font-size: 16px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section-title">ALUNOS</div>
+  <div class="section-subtitle">RESULTADOS</div>
+
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <div class="comparison">
+          <img src="/assets/antes-e-depois-menor/3.png" alt="Antes">
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <div class="comparison">
+          <img src="/assets/antes-e-depois-menor/1.png" alt="Antes">
+          
+        </div>
+      </div>
+      <!-- Adicione mais slides conforme necessário -->
+    </div>
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Navigation -->
+    <div class="swiper-button-next"></div>
+  </div>
+
+  <p class="quote">NÃO ESPERE PELA MOTIVAÇÃO, <br> CRIE A SUA PRÓPRIA.</p>
+
+  <button class="feedback-button">FEEDBACKS DOS ALUNOS</button>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+      },
+      navigation: {
+        nextEl: '.swiper-button-next'
+      }
+    });
+  </script>
+</body>
+</html>

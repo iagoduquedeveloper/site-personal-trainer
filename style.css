@@ -37,6 +37,10 @@ section {
   padding: 10rem 5% 0rem; /* Reduzi de 8% para 5% */
 }
 
+.invisible {
+  display: none;
+}
+
 /* Header Section Code */
 
 header {
@@ -1323,6 +1327,11 @@ footer h3 {
 }
 
 /* alunos */
+.container-title-services {
+  display: flex;
+  flex-direction: column;
+}
+  
 
 .title-one h1 {
   font-size: 5rem;
@@ -1333,19 +1342,77 @@ footer h3 {
   font-size: 1rem;
 }
 
-.container-title-services p {
-  font-size: 0.8rem;
+.p-texto-some {
+  display: none;
 }
 
 .services-content {
-
-  grid-template-columns: repeat(1, 1fr);
+  display: none;
 }
 
-.btn-results {
-  padding: 1rem 2rem;
-  font-size: 1.3rem;
+.swiper {
+  width: 100%;
+  padding: 40px 0;
+  display: block
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.slide-image {
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+.quote {
+  font-size: 16px;
+  margin: 20px 0;
+  display: block;
   text-align: center;
+}
+
+.feedback-button {
+  background-color: #B91C1C;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  letter-spacing: 0.3rem;
+  margin-bottom: 3rem;
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet {
+  background: white;
+  opacity: 0.3;
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet-active {
+  background: red;
+  opacity: 1;
+}
+
+.swiper-button-next {
+  background-color: #d53030;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  right: 10px;
+}
+
+.swiper-button-next::after {
+  font-size: 16px;
+  color: white;
+}
+
+
+.btn-results {
+  display: none;
 }
 
 /* prices */
