@@ -1254,22 +1254,40 @@ footer h3 {
 }
 
 .nav-btn {
-  font-size: 1rem;
-  padding: 0.8rem 1.0rem;
+  font-size: 0.5rem;
+  padding: 0.5rem 0.7rem;
 }
 
 .whatsapp-icon-header {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
+}
+
+.home-img {
+  display: none;
+}
+
+.home {
+  background-image: url("./assets/imagens/HOME.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  min-height: 40vh;
+  text-align: left;
+}
+
+.home-content {
+  margin-top: 8rem;
+  width: 100%;
 }
 
 .home-content h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
-.home-img img {
-  width: 50vw;
-  height: 40vh;
+.textop {
+  width: 65%;
 }
 
 .home-content p {
@@ -1277,9 +1295,10 @@ footer h3 {
 }
 
 .btn {
-  padding: 1rem 1rem;
+  padding: 0.3rem;
   font-size: 1rem;
-  letter-spacing: 0.7rem;
+  width: 40%;
+  letter-spacing: 0.3px;
 }
 
 /* about */
@@ -1438,3 +1457,5 @@ footer {
   padding: 20px;
 }
 }
+
+
