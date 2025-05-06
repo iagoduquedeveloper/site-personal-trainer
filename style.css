@@ -1795,8 +1795,7 @@ footer {
 }
 
 .review-card {
-  min-width: 250px;
-  height: auto;;
+  min-width: 280px;
 }
 .review-card h3 {
   font-size: 1.5rem;
