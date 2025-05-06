@@ -1508,9 +1508,9 @@ footer {
 .home {
   background-image: url("./assets/ELEMENTOS/HOME.png");
   background-repeat: no-repeat;
-  background-position: -20% center;
+  background-position: 20px center;
   background-size: cover;
-  min-height: 50vh;
+  min-height: 55vh;
   text-align: left;
 }
 
@@ -1861,7 +1861,7 @@ footer {
   margin-top: 0;
   gap: 0.1rem;
   justify-content: left;
-  margin-left: 1rem;
+  margin-left: -1rem;
 }
 
 .social-icons img {
