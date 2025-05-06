@@ -1516,7 +1516,13 @@ footer {
 
 .home-content {
   margin-top: 8rem;
-  width: 100%;
+  width: 80%;
+  margin-top: 8rem;
+        width: 85%;
+        display: flex
+;
+        flex-direction: column;
+        align-items: start;
 }
 
 .home-content h1 {
@@ -1525,7 +1531,8 @@ footer {
 }
 
 .textop {
-  width: 65%;
+  width: 85%;
+  text-align: justify;
 }
 
 .home-content p {
@@ -1548,6 +1555,7 @@ footer {
   background-position: center;
   min-height: 54vh;
   min-width: 100%;
+  padding: 40px 32px 10px;
 }
 
 .about img {
@@ -1606,6 +1614,7 @@ footer {
 .container-title-services {
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
 }
   
 
@@ -1698,10 +1707,16 @@ footer {
 }
 
 /* prices */
-
+.price-title-fique {
+  width: 80%;
+  display: flex;
+  gap: 8px;
+}
 .container-plans-titles {
   flex-direction: column;
   justify-content: center;
+  align-items: start;
+  padding: 40px 32px 0px;
 }
 
 .container-plans-titles h1 {
@@ -1762,9 +1777,12 @@ footer {
 
 /* feedbacks */
 
-
+.container-review {
+  padding: 30px 32px 0px;
+}
 .container-title-review h1 {
   font-size: 3rem;
+  margin-bottom: 20px;
 }
 
 .carousel {
@@ -1776,7 +1794,7 @@ footer {
 }
 
 .review-card {
-  min-width: 80vw;
+  min-width: 50vw;
 }
 .review-card h3 {
   font-size: 1.5rem;
@@ -1804,8 +1822,12 @@ footer {
   min-height: 40vh;
   background-color: #2b1720;
   border-radius: 0;
+  margin-top: 30px;
+  padding: 0;
 }
-
+.content {
+  width: 85%;
+}
 .contato-mobile {
     display: block;
     font-size: 3rem;
@@ -1817,8 +1839,7 @@ footer {
 
 .container-sobre-titles {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: start;
   margin-bottom: 7rem;
 }
 .container-sobre-titles h1 {
@@ -1826,7 +1847,7 @@ footer {
 
 }
 .container-title-down {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: left;
 }
 
@@ -1840,7 +1861,7 @@ footer {
   margin-top: 0;
   gap: 0.1rem;
   justify-content: left;
-  margin-left: -1rem;
+  margin-left: 1rem;
 }
 
 .social-icons img {
