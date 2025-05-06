@@ -1720,7 +1720,7 @@ footer {
 }
 
 .container-plans-titles h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-align: center;
 }
 .container-plans-titles p {
@@ -1732,7 +1732,7 @@ footer {
   flex-direction: column;
   flex-wrap: wrap;
   text-align: justify;
-  max-width: 90%;
+  min-width: 80%;
 }
 
 .container-cards {
@@ -1779,6 +1779,7 @@ footer {
 
 .container-review {
   padding: 30px 32px 0px;
+  height: 55vh;
 }
 .container-title-review h1 {
   font-size: 3rem;
@@ -1822,11 +1823,12 @@ footer {
   min-height: 40vh;
   background-color: #2b1720;
   border-radius: 0;
-  margin-top: 30px;
   padding: 0;
+  margin-top: 30px;
 }
 .content {
   width: 85%;
+  padding-top: 20px;
 }
 .contato-mobile {
     display: block;
