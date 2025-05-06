@@ -1326,7 +1326,7 @@ footer h3 {
   flex-direction: column;
   flex-wrap: wrap;
   text-align: justify;
-  max-width: 90%;
+  min-width: 90%;
 }
 
 .container-cards {
@@ -1795,7 +1795,7 @@ footer {
 }
 
 .review-card {
-  min-width: 50vw;
+  min-width: 60vw;
 }
 .review-card h3 {
   font-size: 1.5rem;
