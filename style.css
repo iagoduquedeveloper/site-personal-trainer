@@ -1776,7 +1776,7 @@ footer {
 
 .container-review {
   padding: 30px 32px 0px;
-  height: 55vh;
+  height: 75vh;
 }
 .container-title-review h1 {
   font-size: 3rem;
@@ -1882,4 +1882,11 @@ footer {
 }
 }
 
+@media (max-width: 372px) 
+
+{
+  .home-content h1 {
+    font-size: 2.5rem;
+}
+}
 
