@@ -1648,7 +1648,8 @@ footer {
 }
 
 .slide-image {
-  max-width: 100%;
+  max-width: 500px;
+  min-width: 350px;
   border-radius: 10px;
 }
 
