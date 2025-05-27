@@ -1530,7 +1530,7 @@ footer {
 
 .textop {
   width: 85%;
-  text-align: justify;
+  text-align: left;
 }
 
 .home-content p {
@@ -1562,6 +1562,9 @@ footer {
 
 .about-name {
   display: none;
+}
+.mg4 {
+  margin-top: -0.6rem;
 }
 
 .about-content {
@@ -1622,7 +1625,7 @@ footer {
 
 .title-one h3 {
   letter-spacing: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
 
 .p-texto-some {
@@ -1646,7 +1649,7 @@ footer {
 }
 
 .slide-image {
-  min-width: 300px;
+  max-width: 300px;
   border-radius: 10px;
 }
 
